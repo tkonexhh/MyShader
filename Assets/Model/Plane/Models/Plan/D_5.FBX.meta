@@ -1,0 +1,1120 @@
+fileFormatVersion: 2
+guid: 709391eb1a1df40499861bd122880b0e
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: plan
+    100004: sign
+    100006: Bone_B_Leg
+    100008: Bone_B_Leg 1
+    100010: Bone_B_Wheel
+    100012: Bone_B_Wing
+    100014: Bone_B_Wing_mini
+    100016: Bone_Bak
+    100018: Bone_Body
+    100020: Bone_BR_Wing_V
+    100022: Bone_F
+    100024: Bone_F_Wheel
+    100026: Bone_L_Wing_mini
+    100028: Bone_LXJ
+    100030: Bone_LXJ_B
+    100032: Bone_LXJ_M
+    100034: Bone_R_Wing_mini
+    100036: Bone_Root
+    100038: Bone_Up
+    100040: LXJ
+    400000: //RootNode
+    400002: plan
+    400004: sign
+    400006: Bone_B_Leg
+    400008: Bone_B_Leg 1
+    400010: Bone_B_Wheel
+    400012: Bone_B_Wing
+    400014: Bone_B_Wing_mini
+    400016: Bone_Bak
+    400018: Bone_Body
+    400020: Bone_BR_Wing_V
+    400022: Bone_F
+    400024: Bone_F_Wheel
+    400026: Bone_L_Wing_mini
+    400028: Bone_LXJ
+    400030: Bone_LXJ_B
+    400032: Bone_LXJ_M
+    400034: Bone_R_Wing_mini
+    400036: Bone_Root
+    400038: Bone_Up
+    400040: LXJ
+    2300000: plan
+    2300002: sign
+    3300000: plan
+    3300002: sign
+    4300000: plan
+    4300002: sign
+    4300004: LXJ
+    7400000: Default
+    7400002: Up
+    7400004: Down
+    7400006: Left1
+    7400008: Left2
+    7400010: Right1
+    7400012: Right2
+    7400014: Die01
+    7400016: Die02
+    7400018: Die03
+    7400020: Show1
+    7400022: Show2
+    7400024: Show3
+    7400026: Show4
+    9500000: //RootNode
+    13700000: LXJ
+    13700002: plan
+    13700004: sign
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Body
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg/Bone_F_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1/Bone_B_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing/Bone_B_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_BR_Wing_V
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_B
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_M
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_L_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_R_Wing_mini
+        weight: 1
+      - path: LXJ
+        weight: 1
+      - path: plan
+        weight: 1
+      - path: sign
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Up
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 135
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Body
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg/Bone_F_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1/Bone_B_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing/Bone_B_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_BR_Wing_V
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_B
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_M
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_L_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_R_Wing_mini
+        weight: 1
+      - path: LXJ
+        weight: 1
+      - path: plan
+        weight: 1
+      - path: sign
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Down
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Body
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg/Bone_F_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1/Bone_B_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing/Bone_B_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_BR_Wing_V
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_B
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_M
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_L_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_R_Wing_mini
+        weight: 1
+      - path: LXJ
+        weight: 1
+      - path: plan
+        weight: 1
+      - path: sign
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Left1
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Body
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg/Bone_F_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1/Bone_B_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing/Bone_B_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_BR_Wing_V
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_B
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_M
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_L_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_R_Wing_mini
+        weight: 1
+      - path: LXJ
+        weight: 1
+      - path: plan
+        weight: 1
+      - path: sign
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Left2
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Body
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg/Bone_F_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1/Bone_B_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing/Bone_B_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_BR_Wing_V
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_B
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_M
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_L_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_R_Wing_mini
+        weight: 1
+      - path: LXJ
+        weight: 1
+      - path: plan
+        weight: 1
+      - path: sign
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Right1
+      takeName: Take 001
+      firstFrame: 80
+      lastFrame: 95
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Body
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg/Bone_F_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1/Bone_B_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing/Bone_B_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_BR_Wing_V
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_B
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_M
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_L_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_R_Wing_mini
+        weight: 1
+      - path: LXJ
+        weight: 1
+      - path: plan
+        weight: 1
+      - path: sign
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Right2
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 115
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Body
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg/Bone_F_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1/Bone_B_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing/Bone_B_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_BR_Wing_V
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_B
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_M
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_L_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_R_Wing_mini
+        weight: 1
+      - path: LXJ
+        weight: 1
+      - path: plan
+        weight: 1
+      - path: sign
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Die01
+      takeName: Take 001
+      firstFrame: 200
+      lastFrame: 280
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Body
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg/Bone_F_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1/Bone_B_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing/Bone_B_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_BR_Wing_V
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_B
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_M
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_L_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_R_Wing_mini
+        weight: 1
+      - path: LXJ
+        weight: 1
+      - path: plan
+        weight: 1
+      - path: sign
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Die02
+      takeName: Take 001
+      firstFrame: 300
+      lastFrame: 380
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Body
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg/Bone_F_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1/Bone_B_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing/Bone_B_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_BR_Wing_V
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_B
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_M
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_L_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_R_Wing_mini
+        weight: 1
+      - path: LXJ
+        weight: 1
+      - path: plan
+        weight: 1
+      - path: sign
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Die03
+      takeName: Take 001
+      firstFrame: 400
+      lastFrame: 480
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Body
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg/Bone_F_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1/Bone_B_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing/Bone_B_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_BR_Wing_V
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_B
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_M
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_L_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_R_Wing_mini
+        weight: 1
+      - path: LXJ
+        weight: 1
+      - path: plan
+        weight: 1
+      - path: sign
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Show1
+      takeName: Take 001
+      firstFrame: 500
+      lastFrame: 530
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Body
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg/Bone_F_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1/Bone_B_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing/Bone_B_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_BR_Wing_V
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_B
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_M
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_L_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_R_Wing_mini
+        weight: 1
+      - path: LXJ
+        weight: 1
+      - path: plan
+        weight: 1
+      - path: sign
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Show2
+      takeName: Take 001
+      firstFrame: 530
+      lastFrame: 680
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Body
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg/Bone_F_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1/Bone_B_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing/Bone_B_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_BR_Wing_V
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_B
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_M
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_L_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_R_Wing_mini
+        weight: 1
+      - path: LXJ
+        weight: 1
+      - path: plan
+        weight: 1
+      - path: sign
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Show3
+      takeName: Take 001
+      firstFrame: 700
+      lastFrame: 730
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Body
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg/Bone_F_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1/Bone_B_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing/Bone_B_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_BR_Wing_V
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_B
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_M
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_L_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_R_Wing_mini
+        weight: 1
+      - path: LXJ
+        weight: 1
+      - path: plan
+        weight: 1
+      - path: sign
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Show4
+      takeName: Take 001
+      firstFrame: 800
+      lastFrame: 980
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Body
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_B_Leg/Bone_F_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Leg 1/Bone_B_Wheel
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_B_Wing/Bone_B_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Bak/Bone_BR_Wing_V
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_B
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_F/Bone_LXJ/Bone_LXJ_M
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_L_Wing_mini
+        weight: 1
+      - path: Bone_Root/Bone_Body/Bone_Up/Bone_R_Wing_mini
+        weight: 1
+      - path: LXJ
+        weight: 1
+      - path: plan
+        weight: 1
+      - path: sign
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
