@@ -59,31 +59,46 @@
 
             fixed4 frag(v2f i): SV_Target
             {
-                // float2 tileSum = _ScreenParams / _TileSize;
-                // float2 uv_Screen = round(i.uv * tileSum) / tileSum;
-                // fixed4 col_Screen = tex2D(_MainTex, uv_Screen);
+                float2 tileSum = _ScreenParams / _TileSize;
+                float2 uv_Screen = round(i.uv * tileSum) / tileSum;
+                fixed4 col_Screen = tex2D(_MainTex, uv_Screen);
 
-                // fixed grey = dot(col_Screen.rgb, float3(0.299, 0.587, 0.114));
-                // if (_Greylvl > 0)
-                // {
-                    //     grey = round(grey * _Greylvl) / _Greylvl;
-                    // }
-
-                    // float2 uv_Effect = frac(i.uv * tileSum);
-                    // fixed4 col_Effect = tex2D(_EffectTex, uv_Effect);
-                    // sample the texture
-                    fixed4 col = tex2D(_MainTex, i.uv);
-                    float grey = dot(col.rgb, float3(0.299, 0.587, 0.114));
-                    
-                    
-
-                    col = lerp(_LightColor, _DarkColor, grey);
-                    // apply fog
-                    UNITY_APPLY_FOG(i.fogCoord, col);
-                    return col;
-                }
-                ENDCG
+                //fixed grey = dot(col_Screen.rgb, float3(0.299, 0.587, 0.114));
                 
+                float2 uv_Effect = frac(i.uv * tileSum);
+                fixed4 col_Effect = tex2D(_EffectTex, uv_Effect);
+                // sample the texture
+                fixed4 col = tex2D(_MainTex, i.uv);
+                //
+                
+                col = col_Effect.r * col_Screen ;//* col;
+
+                float grey = dot(col.rgb, float3(0.299, 0.587, 0.114));
+                if (_Greylvl > 0)
+                {
+                    grey = round(grey * _Greylvl) / _Greylvl;
+                }
+
+                if(col.a < (1 - grey))
+                {
+                    col = _DarkColor;
+                }
+                else
+                {
+                    col = _LightColor;
+                }
+
+                float grey2 = dot(col.rgb, float3(0.299, 0.587, 0.114));
+
+                col = lerp(_DarkColor, _LightColor, grey2);
+                //col = grey;
+
+                // apply fog
+                UNITY_APPLY_FOG(i.fogCoord, col);
+                return col;
             }
+            ENDCG
+            
         }
     }
+}
