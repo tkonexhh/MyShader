@@ -73,5 +73,5 @@ Shader "Unlit/DiffuesVertexLevel"
             
         }
     }
-    Fallback "DIFFUSE"
+    Fallback "Specular"
 }
