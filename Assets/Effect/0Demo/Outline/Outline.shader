@@ -79,11 +79,35 @@
             float4 _OutlineColor;
             float _Outline;
 
+            float4 GetScaleVertex(float4 vertex)
+            {
+
+                float4x4 scaleMatrix;
+                scaleMatrix[0][0] = 1 + _Outline;
+                scaleMatrix[0][1] = 0;
+                scaleMatrix[0][2] = 0;
+                scaleMatrix[0][3] = 0;
+                scaleMatrix[1][0] = 0;
+                scaleMatrix[1][1] = 1 + _Outline;;
+                scaleMatrix[1][2] = 0;
+                scaleMatrix[1][3] = 0;
+                scaleMatrix[2][0] = 0;
+                scaleMatrix[2][1] = 0;
+                scaleMatrix[2][2] = 1 + _Outline;;
+                scaleMatrix[2][3] = 0;
+                scaleMatrix[3][0] = 0;
+                scaleMatrix[3][1] = 0;
+                scaleMatrix[3][2] = 0;
+                scaleMatrix[3][3] = 0;
+
+                return  mul(scaleMatrix, vertex);
+            }
 
             v2f vert(appdata v)
             {
                 v2f o;
-                float4 vertex = float4(v.vertex.xyz + v.normal * _Outline * 0.1, 1);
+                //float4 vertex = float4(v.vertex.xyz + v.normal * _Outline * 0.1, 1);
+                float4 vertex = GetScaleVertex(v.vertex);
                 o.vertex = UnityObjectToClipPos(vertex);
                 //o.uv = v.uv;
                 return o;
